@@ -1,0 +1,41 @@
+@media screen and (max-width: 950px) {
+    .Box {
+        margin-top: 24vh;
+        padding: 0%;
+        margin-right: 20vh;
+        margin-left: 20vh;
+    }
+    
+    .Avatar {
+        margin-top: 10%;
+        margin-left: 35%;
+    }
+
+    .linhaVertical {
+        display: none;
+    }
+
+    .titulo {
+        margin-top: 3vh;
+        margin-bottom: 92vh;
+        margin-left: 5vh;
+        margin-right: 5vh;
+        font-size: 1.2rem;
+        width: 200px;
+    }
+
+    #botaoJogar {
+        margin-right: auto;
+    }
+
+    .fimPagina {
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .titulo {
+        margin-top: 5vh;
+    }
+}

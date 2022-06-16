@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=" widht=device-widht, initial-scale=1">
+    <title>O JOGO</title>
+    <link rel="icon" type="image/png" href="Img/iconenav.png" /> 
+    <link rel="stylesheet" href="Tela.css">
+    <link rel="stylesheet" href="MediaQuery.css">
+    <script src="Jogo.js" defer></script>
+</head>
+
+<body class="bg">
+
+    <div class="titulo">
+        <h2>O JOGO</h2>
+    </div>
+
+    <ul class="Box">
+
+        <li class="containerEsquerdo">
+
+            <img src="Img/avatarLogin.jpg" alt="Avatar" class="Avatar">
+
+            <h3>Nick:</h3>
+
+            <input type="text" id="digitacao">
+
+            <h3>Intervalo:</h3>
+            <select name="opcoes" id="opcoes" class="opcoes">
+                <option value="Opção 1" selected="selected">Opção 1: 1 a 10</option>
+                <option value="Opção 2">Opção 2: 1 a 100 </option>
+                <option value="Opção 3">Opção 3: 1 a 200 </option>
+            </select>
+
+            <button type="text" id="botaoComecar">COMEÇAR</button>
+
+        </li>
+
+        <li class="linhaVertical"></li>
+
+        <li class="containerDireito">
+
+            <p id="BoasVindas"></p>
+
+            <div class="fixo">
+                <p>De acordo com a opção de intervalo que você <br /> escolheu, descubra o número!</p>
+
+                <h3 id="h3Esq">Digite um número:</h3>
+
+                <input type="number" name="numero" id="numeroDigitado">
+
+                <button type="start" id="botaoJogar">JOGAR</button>
+
+                <div class="fimPagina">
+                    <div id="resultado"></div>
+                    <div id="tentativas"></div>
+                    <div id="fimJogo"></div>
+                </div>
+            </div>
+        </li>
+
+
+    </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
